@@ -24,7 +24,10 @@
     "author" : "Sharoon Thomas, Open Labs Business Solutions, Akretion,Odoo Community Association (OCA)",
     "website" : "http://openlabs.co.in/",
     "category" : "Generic Modules",
-    "depends" : ['product_sequence'],
+    "depends" : [
+#        'product_sequence',
+        'product',
+    ],
     "description": """
 This Module implements an Image Gallery for products.
 You can add images to every product.
